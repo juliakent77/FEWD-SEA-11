@@ -1,31 +1,63 @@
+* {
+  background-color: #f2fffb;
+}
 #content {
   width: 75%;
   text-align: center;
   margin: auto;
 }
 
+nav {
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding-top: 20px;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35px;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+}
+
 h2 {
   text-align: left;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h3 {
   display: inline;
+  font-family: 'Montserrat', sans-serif;
 }
 
 p {
   text-align: left;
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+  line-height: 19px;
+}
+
+ul {
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+  line-height: 19px;
+}
+
+img {
+  margin: 25px;
+  text-align: center;
+  border-style: solid;
+  border-width: 10px;
+  border-color: white;
 }
 
 #puppy {
   float: right;
 }
 
-ul {
-  text-align: left;
+.link {
+text-decoration: none;
 }
-
-img {
-  padding: 25px;
-  text-align: center;
-}
-
