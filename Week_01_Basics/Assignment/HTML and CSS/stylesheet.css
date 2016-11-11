@@ -17,5 +17,15 @@ p {
 }
 
 #puppy {
-  display: inline;
+  float: right;
 }
+
+ul {
+  text-align: left;
+}
+
+img {
+  padding: 25px;
+  text-align: center;
+}
+
