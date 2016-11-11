@@ -7,6 +7,18 @@
   margin: auto;
 }
 
+a {
+  color: #05080C;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+a:active {
+    color: blue;
+}
+
 nav {
   font-family: 'Raleway', sans-serif;
   font-size: 12px;
