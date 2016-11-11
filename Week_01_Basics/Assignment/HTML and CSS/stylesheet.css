@@ -1,3 +1,21 @@
+#content {
+  width: 75%;
+  text-align: center;
+  margin: auto;
+}
+
+h2 {
+  text-align: left;
+}
+
 h3 {
+  display: inline;
+}
+
+p {
+  text-align: left;
+}
+
+#puppy {
   display: inline;
 }
