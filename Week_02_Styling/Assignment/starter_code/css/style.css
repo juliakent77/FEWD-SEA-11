@@ -1,8 +1,8 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
-Developer @GA in NYC
+Project Name: Relaxr
+Client: Relaxr LLC
+Author: Julia Kent
+Developer @GA in Seattle
 */
 
 
@@ -46,12 +46,9 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
+
      background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+     background-size: cover;
 }
 
 
@@ -79,6 +76,32 @@ footer {
 /* ADDITIONAL STYLES
 /*******************************************/
 
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  color: white;
+  font-weight: 800;
+  text-align: left;
+  padding: 20px 50px 20px 50px;
+  margin-bottom: 100px
+}
 
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  color: white; 
+  font-weight: 600;
+  text-align: center;
+}
 
-
+#yellow_button {
+    background-color: #f9e42e;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 800;
+}
