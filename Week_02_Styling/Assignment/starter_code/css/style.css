@@ -95,18 +95,21 @@ h2 {
   letter-spacing: 1px;
 }
 
-#yellow_button {
-    background-color: #f9e42e;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: 800;
+.button {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  border-radius: 5px;
+  font-weight: 800;
+  padding: 12px 0;
+  width: 280px;
+  font-size: 28px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  text-decoration: none;
 }
 
-#buttons {
-    display: inline-block;
-    text-align: center;
+.yellow {
+  background: #f9e42e;
+  color: #033048;
 }
