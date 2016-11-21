@@ -40,12 +40,12 @@ Developer @GA in Seattle
 /*******************************************/
 
 body {
-  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-  background-size: cover;
 }
 
 #header {
   width: 100%;
+  background: url(../images/header_bg.jpg) no-repeat top center #131e27;
+  height: 700px;
 }
 
 #info {
@@ -53,8 +53,8 @@ body {
 }
 
 #quote {
-  padding-top: 20px;
-
+  padding-top: 35px;
+  background: url(../images/testimonial_bg.jpg) no-repeat top center #071324;
 }
 
 #calltoaction {
@@ -75,8 +75,8 @@ h1 {
   color: white;
   font-weight: 800;
   text-align: left;
-  padding: 20px 50px 20px 50px;
-  margin-bottom: 100px
+  padding: 30px 50px 20px 50px;
+  margin-bottom: 150px
 }
 
 h2 {
@@ -86,6 +86,7 @@ h2 {
   font-weight: 600;
   text-align: center;
   letter-spacing: 1px;
+  margin-bottom: 150px;
 }
 
 h3 {
@@ -97,6 +98,15 @@ h3 {
   letter-spacing: 1px;
   margin-top: 30px;
   margin-bottom: 15px;
+}
+
+h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  color: #f9e42e;
+  font-weight: 800;
+  text-align: center;
+  padding: 20px 50px 20px 50px;
 }
 
 p {
@@ -144,6 +154,10 @@ aside {
   font-style: normal;
 }
 
+img {
+  padding: 10px 15px;
+}
+
 .button {
   font-family: 'Open Sans', sans-serif;
   color: white;
@@ -161,8 +175,6 @@ aside {
 .yellow {
   background: #f9e42e;
   color: #033048;
-  margin-top: 180px;
-  margin-bottom: 398px;
 }
 
 .blue {
@@ -184,4 +196,10 @@ aside {
   text-align: center;
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+.icons {
+text-align: center;    
+display: table-cell;
+vertical-align: middle; 
 }
