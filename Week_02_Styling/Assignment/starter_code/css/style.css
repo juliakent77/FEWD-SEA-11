@@ -198,8 +198,10 @@ img {
   padding-bottom: 30px;
 }
 
+/* HOW DO I MAKE THE IMAGES CENTERED IN MY DIV???*/
+
 .icons {
-text-align: center;    
-display: table-cell;
-vertical-align: middle; 
+  display: inline-block;
+  list-style: none;
+  margin: 0 26px 75px;
 }
