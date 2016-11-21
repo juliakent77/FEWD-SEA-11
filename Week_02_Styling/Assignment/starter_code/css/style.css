@@ -53,12 +53,14 @@ body {
 }
 
 #quote {
+  padding-top: 20px;
 
 }
 
 #calltoaction {
   background-color: #f9e42e;
-
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 #footer {
@@ -172,4 +174,14 @@ aside {
 .container {
   width: 960px;
   margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+}
+
+.footer {
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
