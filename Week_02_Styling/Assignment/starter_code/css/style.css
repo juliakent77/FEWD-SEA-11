@@ -5,12 +5,6 @@ Author: Julia Kent
 Developer @GA in Seattle
 */
 
-
-/******************************************
-/* SETUP
-/*******************************************/
-
-/* Box Model Hack */
 * {
      -moz-box-sizing: border-box; /* Firexfox */
      -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
@@ -46,20 +40,32 @@ Developer @GA in Seattle
 /*******************************************/
 
 body {
-
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-     background-size: cover;
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
 }
 
 #header {
   width: 100%;
-  margin: auto;
-  height: 500px;
 }
 
-#benefits {
-  background-color: grey;
+#info {
+  background-color: white;
 }
+
+#quote {
+
+}
+
+#button {
+  background-color: #f9e42e;
+
+}
+
+#footer {
+  background-color: #121212;
+
+}
+
 
 h1 {
   font-family: 'Open Sans', sans-serif;
