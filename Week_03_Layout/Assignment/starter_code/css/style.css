@@ -49,7 +49,7 @@ body {
      color: #000;
      font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
+     font-family: 'Open Sans', sans-serif;
 }
 
 .container {
@@ -60,11 +60,33 @@ body {
 header#navbar {
   width: 100%;
   background-color: #033048;
-  padding: 15px 0;
+  padding: 20px 0;
 }
 
-footer {
-
+.navbar-left {
+  float: left;
 }
 
-/*font-family: 'Open Sans', sans-serif;*/
+
+.navbar-left h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  color: white;
+  font-size: 24px;
+}
+
+.navbar-right {
+  float: right;
+}
+
+.navbar-right ul li {
+  display: inline-block;
+  line-height: 30px;
+  margin-left: 20px;
+}
+
+.navbar-right ul li a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #f9e42e;
+}
