@@ -50,6 +50,7 @@ body {
      font-size: 12px;
      line-height: 1.4;
      font-family: 'Open Sans', sans-serif;
+     background-color: #f0efef;
 }
 
 .container {
@@ -100,7 +101,7 @@ header#navbar {
 .sidebar {
  float: left;
  width: 28%;
- background-color: black;
+ margin-top: 50px;
 }
 
 h2 {
@@ -139,12 +140,33 @@ p {
   font-size: 20px;
 }
 
-
-section.article p {
-  
+.learn-more {
+  text-align: left;
+  font-weight: 800;
+  color: #033048;
+  font-size: 18px;
 }
 
-/*
+h3 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #033048;
+  margin-top: 10px;
+}
+
+.sidebar p {
+  margin-top: 1px;
+}
+
+section.article p {
+
+}
+
+#calltoaction {
+  background-color: #f9e42e;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 
 .button {
   font-family: 'Open Sans', sans-serif;
@@ -160,11 +182,6 @@ section.article p {
   text-decoration: none;
 }
 
-.yellow {
-  background: #f9e42e;
-  color: #033048;
-}
-
 .blue {
   background: #033048;
   color: #fff;
@@ -178,7 +195,6 @@ section.article p {
   padding-bottom: 30px;
 }
 
-
 .icons {
   display: inline-block;
   list-style: none;
@@ -188,4 +204,58 @@ section.article p {
 
 #icons {
   text-align: center;
-}*/
+}
+
+h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  color: #f9e42e;
+  font-weight: 800;
+  text-align: center;
+  padding: 20px 50px 20px 50px;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  color: black; 
+  font-weight: 300;
+  text-align: left;
+  letter-spacing: 1px;
+}
+
+li {
+  line-height: 20px;
+}
+
+.sidebar li {
+  line-height: 33px;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 24px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #033048;
+}
+
+#footer {
+  background-color: #121212;
+
+}
+
+#icons img {
+  padding: 10px 15px;
+  width: auto;
+}
+
+.ad {
+  background-color: white;
+  height: 500px;
+}
+
+.ad h2 {
+  padding: 10px;
+  text-align: center;
+}
