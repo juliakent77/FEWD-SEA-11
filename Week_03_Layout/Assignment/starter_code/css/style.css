@@ -76,6 +76,11 @@ header#navbar {
   font-size: 24px;
 }
 
+.navbar-left a {
+  text-decoration: none;
+  color: white;
+}
+
 .navbar-right {
   float: right;
 }
